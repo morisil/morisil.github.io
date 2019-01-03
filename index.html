@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>redirect to xemantic</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      height: 100%;
+    }
+    body {
+      background: black;
+      overflow: hidden;
+    }
+    main {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      z-index: -100;
+
+    }
+    a {
+      color: white;
+    }
+    p {
+      color: white;
+      font-size: 8vw;
+      margin: auto;
+      text-align: center;
+      align-self: center;
+    }
+    </style>
+</head>
+<body>
+<main>
+  <p>
+    Just go to <a href="https://xemantic.com">xemantic.com</a>
+  </p>
+  <p>everything is listed there</p>
+</main>
+<iframe frameborder="0" src="https://www.shadertoy.com/embed/tdsGDN?gui=false&t=10&paused=false&muted=false" allowfullscreen></iframe>
+</body>
+</html>
